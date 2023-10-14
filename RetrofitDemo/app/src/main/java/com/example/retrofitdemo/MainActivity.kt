@@ -74,6 +74,7 @@ class MainActivity : AppCompatActivity() {
                     " " + "User id : ${receivedAlbumsItem?.userId}" + "\n\n\n"
             textView.text = result
 
+
         })
     }
 }
