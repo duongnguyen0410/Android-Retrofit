@@ -73,6 +73,7 @@ class MainActivity : AppCompatActivity() {
                     " " + "Album title: ${receivedAlbumsItem?.title}" + "\n" +
                     " " + "User id : ${receivedAlbumsItem?.userId}" + "\n\n\n"
             textView.text = result
+
         })
     }
 }
